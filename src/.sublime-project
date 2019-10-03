@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/shan.paul/hops/adviewer"
+		}
+	],
+
+  "syntax_override": {
+    "\\.js$": ["Babel", "JavaScript (Babel)"]
+ }
+}
