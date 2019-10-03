@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Image, Divider, Grid } from 'semantic-ui-react'
-// import { BrowserRouter, Route, Link, withRouter, Switch } from "react-router-dom";
 import TopMenu from './components/TopMenu'
 import Routes from "./routes"
 import './App.css';

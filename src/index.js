@@ -7,18 +7,13 @@ import * as serviceWorker from './serviceWorker';
 import { Router } from "react-router-dom"
 import { Provider } from "react-redux";
 import { createBrowserHistory } from 'history'
-// import {addArticle, deleteArticle, updateArticle} from './actions/index'
 import store from './store';
 
 const history = createBrowserHistory()
 
 window.store = store;
-// window.addArticle = addArticle;
-// window.deleteArticle = deleteArticle;
-// window.updateArticle = updateArticle;
 
-
-ReactDOM.render( 
+ReactDOM.render(
     <Provider store={store}>
         <Router history={history}>
             <App />

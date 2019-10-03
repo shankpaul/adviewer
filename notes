@@ -1,0 +1,107 @@
+React Component
+---------------
+Create a view component with state and funtions and default render method
+Extends from React.Component
+use below to import module
+
+import React from 'react'
+and class should be exported from file
+
+eg:
+class Signup extends React.Component{
+  render(){
+    return (
+    <div></div>
+    )
+  }
+}
+export default Signup
+================================================================================
+
+State
+-----
+Stores components state in object. and it cannot be changed directly
+Use `setState` method for  updating state
+access state using this.state
+
+eg:
+
+state = {name: 'shan'}
+=================================================================================
+
+Props
+-----
+Props are atrtibutes sent with component call
+eg: <MyComponent name='mycomp'>
+access props using `this.props`
+=================================================================================
+
+Arrow functions
+---------------
+Arrow funtion is another way of creating functions using key word `function`. its supports only in ES6
+
+eg:
+
+let findName = (<params>) => {
+  //define here
+}
+
+equivalent using normal function
+
+function findName(<params>){
+  //define here
+}
+
+With arrow function no need to bind `this`
+=================================================================================
+
+Containers
+----------
+Containers are another form of react component but that deals with redux data.
+it doesn't render any DOM.
+helps to separate logics
+
+eg:
+let SignupForm = props => {
+  return (
+    <input type='text'>
+  )
+}
+=================================================================================
+
+Routing
+-------
+
+Routing can be achieved by using library `react-routed-dom'
+
+import { Router } from "react-router-dom"
+
+routing is basically loading components in the main page
+eg:
+<Router history={history}>
+  <Switch>
+    <Route exact path="/" component={Signup} />
+    <Route path="/signin" component={Signin} />
+  </Switch>
+</Router>
+
+in this applition we loaded switch as a continer to main component
+
+
+
+=================================================================================
+
+Redux
+-----
+Redux is a javascript library to manage State in the application. its using single state for entire application. and this data can accessed application wide.
+
+library 'redux'
+
+redux can connected to react component by using library
+
+
+=================================================================================
+
+
+
+
