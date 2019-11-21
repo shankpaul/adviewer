@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"Ma",
+				"MapDispatchToProps"
+			],
+			[
+				"map",
+				"MapStatetoProps"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"lin",
+				"addLinks"
+			],
+			[
+				"is",
+				"isAuthenticated"
+			],
+			[
+				"sign",
+				"signin"
+			],
+			[
+				"handle",
+				"handleSignIn"
+			],
+			[
+				"session",
+				"session_id"
+			],
+			[
+				"ris",
+				"risk_id_field"
+			],
+			[
+				"tra",
+				"trait"
+			],
+			[
+				"re",
+				"receive"
+			],
+			[
+				"allo",
+				"allow_any_instance_of"
+			],
+			[
 				"eni",
 				"entityuniqueids"
 			],
@@ -112,20 +160,12 @@
 				"find_red_flag"
 			],
 			[
-				"ris",
-				"risk"
-			],
-			[
 				"risk",
 				"risk_data"
 			],
 			[
 				"rs",
 				"risk"
-			],
-			[
-				"is",
-				"is_discountable"
 			],
 			[
 				"wid",
@@ -474,91 +514,42 @@
 			[
 				"se",
 				"selected_screening_types"
-			],
-			[
-				"exi",
-				"exit_list"
-			],
-			[
-				"alert_co",
-				"alert_comment_date"
-			],
-			[
-				"aut",
-				"authentication"
-			],
-			[
-				"scr",
-				"screening_completed"
-			],
-			[
-				"to_",
-				"to_hash"
-			],
-			[
-				"authe",
-				"authenticated"
-			],
-			[
-				"switch",
-				"switch_off_comment"
-			],
-			[
-				"screeni",
-				"screening_session"
-			],
-			[
-				"has",
-				"has_many"
-			],
-			[
-				"edit",
-				"edit_session"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 821,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/dashboard.js",
+			"settings":
+			{
+				"buffer_size": 229,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "notes.md",
+			"settings":
+			{
+				"buffer_size": 8031,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
 	[
-		[
-			[
-				[
-					"Packages/Makefile/Make.sublime-build",
-					""
-				],
-				[
-					"Packages/Makefile/Make.sublime-build",
-					"Clean"
-				]
-			],
-			[
-				"Packages/Makefile/Make.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/Makefile/Make.sublime-build",
-					""
-				],
-				[
-					"Packages/Makefile/Make.sublime-build",
-					"Clean"
-				],
-				[
-					"Packages/Ruby/Ruby.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/Makefile/Make.sublime-build",
-				""
-			]
-		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -567,6 +558,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"markdowncode",
+				"Snippet: Markdown Codeblock"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdownpreove",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdo",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"markdownpreview",
+				"MarkdownLivePreview: Open Preview"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -663,140 +674,146 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/shan.paul/hops/adviewer",
+		"/home/shan.paul/hops/adviewer/src",
+		"/home/shan.paul/hops/adviewer/src/components"
+	],
 	"file_history":
 	[
+		"/home/shan.paul/hops/adviewer/src/App.js",
+		"/home/shan.paul/hops/adviewer/src/store/store.js",
+		"/home/shan.paul/hops/adviewer/src/components/TopMenu.js",
+		"/home/shan.paul/hops/adviewer/src/components/dashboard.js",
+		"/home/shan.paul/hops/adviewer/src/store/index.js",
+		"/home/shan.paul/hops/adviewer/README.md",
+		"/home/shan.paul/.config/sublime-text-3/Packages/User/Markdown.sublime-settings",
+		"/home/shan.paul/hops/adviewer/notes.md",
+		"/home/shan.paul/.config/sublime-text-3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/home/shan.paul/.config/sublime-text-3/Packages/User/Markdown (Standard).sublime-settings",
+		"/home/shan.paul/.config/sublime-text-3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/home/shan.paul/.config/sublime-text-3/Packages/User/MultiMarkdown.sublime-settings",
+		"/home/shan.paul/hops/adviewer/node_modules/jest-util/build/installCommonGlobals.js",
+		"/home/shan.paul/hops/adviewer/src/components/Signin.js",
+		"/home/shan.paul/hops/adviewer/src/helpers/auth.js",
+		"/home/shan.paul/hops/adviewer/src/reducers/index.js",
+		"/home/shan.paul/hops/adviewer/src/helpers/private_route.js",
+		"/home/shan.paul/hops/adviewer/src/actions/index.js",
+		"/home/shan.paul/hops/adviewer/src/reducers/signin_reducer.js",
+		"/home/shan.paul/hops/adviewer/src/containers/signin_form.js",
+		"/home/shan.paul/hops/adviewer/src/routes.js",
+		"/home/shan.paul/hops/adviewer/src/reducers/signup_reducer.js",
+		"/home/shan.paul/hops/adviewer/src/components/Signup.js",
+		"/home/shan.paul/hops/adviewer/src/containers/signup_form.js",
+		"/home/shan.paul/hops/adviewer/src/containers/dashboard.js",
+		"/home/shan.paul/hops/adviewer/src/constants/action_types.js",
+		"/home/shan.paul/hops/adviewer/adviewer.sublime-project",
+		"/home/shan.paul/.config/sublime-text-3/Packages/Babel/Babel.sublime-settings",
+		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/commercial/reports_controller.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/normalisers/lexis_nexis_raw_normaliser.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/lib/apm_service/api/response.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/lib/apm_service/api/request.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/lib/apm_service/api/response.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/lib/apm_service/api.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/services/retail/report_api_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/services/concerns/retail_core_report_api.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/services/retail/report_api.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/models/digital_access_risk.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/features/people_searches/retail_search_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/models/digital_access_risk_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/services/commercial/report_api_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/models/digital_access_risk_collection.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/models/digital_access_risk_collection_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/views/retail_core/reports/_deal_information.html.erb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/views/retail_core/reports/show.html.erb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/features/retail_report_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/config/routes.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/features/report_edit_session/commercial/matching_messages_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/support/capybara.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/config/secrets.yml",
+		"/home/shan.paul/experian_projects/apmlive_app/app/models/concerns/screening_functions.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/document_images_controller.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/services/wealth/report_api.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/factories/retail_metadata.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/factories/commercial_metadata.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/models/commercial/report_session/red_flags_item_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/views/vertical_okyc_row.js",
+		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/views/vertical_okyc.js",
+		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/_apml_app.html.erb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/features/report_edit_session/commercial/vertical_okyc_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/models/vertical_okyc.js",
+		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/vertical_okyc/_discounted_alerts.html.erb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/views/popovers.js",
+		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/views/risks.js",
+		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/vertical_okyc/_summary.html.erb",
+		"/home/shan.paul/experian_projects/apmlive_app/build/criteria/commercial/conf/data-config.xml",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/features/report_edit_session/commercial/risk_discounting_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/vertical_okyc/_risk_section.html.erb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/vertical_okyc/_discounted_rationale.html.erb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/collections/vertical_okyc.js",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/models/retail/report_edit_session_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/models/concerns/retail_core_report_edit_session.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/models/commercial/report.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/models/commercial/report_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/models/commercial/report_edit_session_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/factories/users.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/factories/unlink_satellite_match.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/metadata/commercial/report_metadata.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/models/concerns/red_flags_item_mapping.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/metadata/wealth/report_metadata.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/db/migrate/20191004091509_add_risk_id_to_c_mapping_red_flags_reason.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/db/migrate/20170624130308_create_c_mapping_red_flags_reason.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/risk_metadata_retail_config.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/models/retail/report_session/red_flags_item.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/metadata/concerns/metadata_finder.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/metadata/retail/report_metadata.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/factories/report.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/models/concerns/screening_functions_shared.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/factories/retail_reports.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/factories/report_edit_sessions.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/factories/report_override.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/lib/generators/lookup_api_configs/templates/retail.yml.erb",
+		"/home/shan.paul/experian_projects/apmlive_app/spec/controllers/commercial/reports_controller_spec.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/models/commercial/rematch_action.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/models/report_edit_session_base.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/app/models/commercial/report_edit_session.rb",
+		"/home/shan.paul/experian_projects/apmlive_app/lib/generators/lookup_api_configs/templates/commercial.yml.erb",
+		"/home/shan.paul/experian_projects/apmlive_app/lib/generators/criteria_api_configs/configs/commercial.yml",
+		"/home/shan.paul/experian_projects/apmlive_app/lib/generators/criteria_api_configs/configs/retail.yml",
 		"/home/shan.paul/se_data.json.csv",
 		"/home/shan.paul/se_data.json",
 		"/home/shan.paul/SCREENING_ENHANCERS_3data.json",
 		"/home/shan.paul/SCREENING_ENHANCERS_201909301426.json",
 		"/home/shan.paul/SCREENING_ENHANCERS_201909301435.json",
-		"/home/shan.paul/hops/adviewer/src/App.js",
-		"/home/shan.paul/hops/adviewer/src/components/Signup.js",
-		"/home/shan.paul/hops/adviewer/src/reducers/signup_reducer.js",
-		"/home/shan.paul/hops/adviewer/src/actions/index.js",
-		"/home/shan.paul/hops/adviewer/src/containers/signup_form.js",
 		"/home/shan.paul/SCREENING_ENHANCERS_201909301423.sql",
-		"/home/shan.paul/hops/adviewer/src/store/index.js",
-		"/home/shan.paul/hops/adviewer/src/components/TopMenu.js",
 		"/home/shan.paul/hops/adviewer/src/Adviewer.sublime-project",
 		"/home/shan.paul/experian_projects/apmlive_app/build/criteria/retail_ref/conf/data-config.xml",
 		"/home/shan.paul/experian_projects/apmlive_app/app/models/enhancers/risk_enhancer.rb",
 		"/home/shan.paul/Downloads/sublimehq-rpm-pub.gpg",
 		"/home/shan.paul/experian_projects/apmlive_app/app/constructors/lexis_nexis_request_constructor.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/config/secrets.yml",
 		"/home/shan.paul/experian_projects/apmlive_app/config/initializers/data_source_configs.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/document_images_controller.rb",
 		"/home/shan.paul/experian_projects/apmlive_app/config/database.yml",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/commercial/report.rb",
 		"/home/shan.paul/experian_projects/apmlive_app/app/models/commercial/report_session/red_flags_item.rb",
 		"/home/shan.paul/experian_projects/apmlive_app/app/services/commercial/score_engine_api.rb",
 		"/home/shan.paul/Desktop/111111.xml",
-		"/home/shan.paul/experian_projects/apmlive_app/lib/generators/criteria_api_configs/configs/commercial.yml",
-		"/home/shan.paul/experian_projects/apmlive_app/lib/generators/criteria_api_configs/configs/retail.yml",
 		"/home/shan.paul/experian_projects/apmlive_app/build/criteria/wealth/conf/data-config.xml",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/concerns/red_flags_item_mapping.rb",
 		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/concerns/lexis_nexis_requests.rb",
 		"/home/shan.paul/experian_projects/apmlive_app/app/views/shared/reports/_apm_risk_rating.html.erb",
 		"/home/shan.paul/experian_projects/apmlive_app/Gemfile",
 		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/concerns/events.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/_apml_app.html.erb",
 		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/models/real_time_screening.js",
 		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/show.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/commercial/reports_controller.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/config/routes.rb",
 		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/application_controller.rb",
 		"/home/shan.paul/experian_projects/apmlive_app/app/models/enhancers/discounted_vokyc_enhancer.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/concerns/screening_functions.rb",
 		"/home/shan.paul/experian_projects/apmlive_app/app/models/enhancers/screening_enhancer.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/lib/generators/lookup_api_configs/templates/commercial.yml.erb",
 		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/commercial/report_edit_sessions_controller.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/lib/generators/lookup_api_configs/templates/retail.yml.erb",
 		"/home/shan.paul/experian_projects/apmlive_app/spec/factories/screening_enhancer.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/build/criteria/retail/conf/data-config.xml",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/vertical_okyc/_risk_section.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/vertical_okyc_decorator.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/normalisers/lexis_nexis_raw_normaliser.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/concerns/retail_core_report.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/spec/features/report_edit_session/commercial/red_flag_spec.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/spec/features/report_edit_session/retail/red_flag_spec.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/okyc_evidence/_ldc_image.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/spec/features/report_edit_session/commercial/lexis_nexis_spec.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/services/concerns/retail_core_score_engine_api.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/concerns/apml.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/concerns/retail_core_report_controller.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/retail/reports_controller.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/concerns/retail_core_report_edit_session.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/enhancers/handle_red_flags.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/retail/mapping_brand_code.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/retail/report_edit_sessions_controller.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/concerns/report_edit_session_contexts.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/report_edit_session_base.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/retail/report_session/product_risks_item.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/retail/report_session/report_item.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/retail/report_decorator.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/shared/reports/_shared_setup.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/models/risks.js",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/retail_core/reports/_apml_app.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/retail/report_edit_session_contexts_controller.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/normalisers/retail_normaliser.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/concerns/retail_core_report_edit_sessions_controller.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/people_search_controller.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/services/retail/score_engine_api.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/pmml/lloyds_retail_scoring.pmml",
-		"/home/shan.paul/experian_projects/apmlive_app/app/metadata/concerns/metadata_finder.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/metadata/retail/report_metadata.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/sections/risks.js",
-		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/collections/risks.js",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/concerns/exit_lists.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/concerns/retail_core_report_decorator.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/risk_metadata_retail_config.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/commercial/report_decorator.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/concerns/report_general.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/concerns/header_link.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/application_decorator.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/services/lexis_nexis_api.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/config/environments/dev.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/config/environments/production.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/concerns/okyc.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/config/initializers/ph_criteria_search_config/retail.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/config/environments/staging.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/config/server/run_scripts/web_fetch_server.sh",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/retail_core/reports/_cra_risk_criteria.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/models/retail/report_edit_session.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/db/migrate/20190909124709_add_mapping_brancd_codes.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/spec/factories/pmml_response.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/shared/reports/_red_flags.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/shared/reports/risk_table_templates/_risk_table.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report/views/risk_tables.js",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/risk_metadata_rbb_config.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/config/deploy/prod_blue.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/services/proxied_api_service.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/lib/tasks/cache.thor",
-		"/home/shan.paul/experian_projects/apmlive_app/app/services/wealth/score_engine_api.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/_general.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/concerns/rematching.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/helpers/report_helper.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/public/assets/application-701e7a4b11d4c2b4a16529193b44729d84efda0b70eca2588b80c95e838167f1.js",
-		"/home/shan.paul/experian_projects/apmlive_app/app/controllers/real_time_screening_controller.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/config/environments/development.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/decorators/lexis_nexis_decorator.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/services/lexis_nexis_request_handler.rb",
-		"/home/shan.paul/experian_projects/apmlive_app/pmml/lloyds.pmml",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/retail_core/reports/show.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/assets/javascripts/report.js",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/_contacts.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/retail_core/reports/_deal_information.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/commercial/reports/_links.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/views/retail_core/reports/_links.html.erb",
-		"/home/shan.paul/experian_projects/apmlive_app/app/assets/stylesheets/modules/tables.scss",
-		"/home/shan.paul/experian_projects/apmlive_app/app/assets/stylesheets/modules/report.scss",
-		"/home/shan.paul/experian_projects/criteria_repo/criteria/uat/phsearchapi_lloydsamlretail/data-config.xml",
-		"/home/shan.paul/experian_projects/criteria_repo/criteria/qat/phsearchapi_lloydsamlretail/data-config.xml",
-		"/home/shan.paul/experian_projects/criteria/qat/phsearchapi_lloydsamlretail/data-config.xml"
+		"/home/shan.paul/experian_projects/apmlive_app/build/criteria/retail/conf/data-config.xml"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -810,7 +827,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"\\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -828,8 +844,97 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/dashboard.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4720,
+								4720
+							]
+						],
+						"settings":
+						{
+							"parser": "markdown",
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"target": "disk",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -866,18 +971,14 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 273.0
+		"height": 114.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"output.unsaved_changes":
-	{
-		"height": 114.0
-	},
 	"pinned_build_system": "Packages/Ruby/Ruby.sublime-build",
-	"project": "Adviewer.sublime-project",
+	"project": "adviewer.sublime-project",
 	"replace":
 	{
 		"height": 46.0
@@ -889,6 +990,46 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"report_api_spec.rb",
+				"spec/services/retail/report_api_spec.rb"
+			],
+			[
+				"digital_access_risk_spec.rb",
+				"spec/models/digital_access_risk_spec.rb"
+			],
+			[
+				"digital_access_risk_collection.rb",
+				"app/models/digital_access_risk_collection.rb"
+			],
+			[
+				"digital_access_risk_collection_spec.rb",
+				"spec/models/digital_access_risk_collection_spec.rb"
+			],
+			[
+				"retail_report_",
+				"spec/features/retail_report_spec.rb"
+			],
+			[
+				"matching",
+				"spec/features/report_edit_session/commercial/matching_messages_spec.rb"
+			],
+			[
+				"messages",
+				"spec/features/report_edit_session/commercial/matching_messages_spec.rb"
+			],
+			[
+				"eport_edit_session_spec",
+				"spec/models/retail/report_edit_session_spec.rb"
+			],
+			[
+				"retail_core_report_edit_session.rb",
+				"app/models/concerns/retail_core_report_edit_session.rb"
+			],
+			[
+				"report",
+				"app/models/commercial/report.rb"
+			],
 			[
 				"handle",
 				"app/models/enhancers/handle_red_flags.rb"
@@ -1130,7 +1271,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,

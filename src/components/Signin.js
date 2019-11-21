@@ -1,88 +1,74 @@
-import React from 'react'
-import {Form,Input, Checkbox, Button, Message} from 'semantic-ui-react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Redirect } from "react-router-dom";
+import { bindActionCreators } from "redux";
+import { connect } from "react-redux";
+import { Message, Image, Grid } from "semantic-ui-react";
 
+import SignInForm from "../containers/signin_form";
+import { loginUser } from "../redux/actions";
 
+class Signin extends React.Component {
+  handleSubmit = values => {
+    //calling action
+    if (values !== "") this.props.loginUser(values);
+  };
 
-class Signin extends React.Component{
-  state = { email:'', 
-            password:'',
-            authenticated: false,
-            auth_failed: false,
-            token:'',
-            error: ''
-          }
-  handleSubmit = (event) => {
-    this.validateForm();
-    if(this.state.errors.length === 0){
-      console.log(this.state)
+  handleSignIn = () => {
+    if (this.props.signin_success) {
+      return <Redirect to="/dashboard" />;
     }
-    
-  }
+  };
 
-  handleChange = (e, { name, value }) => this.setState({ [name]: value })
-  
-  validateForm = () =>{
-    let fields = ['email','password',]
-    let errors_lines = []
-    fields.forEach((key)=>{
-      let error = this.validateInput(key,this.state[key]);
-      if(error!==''){
-        errors_lines.push(error)
-      }
-    });
-    this.setState({error: errors_lines});
-  }
-
-  
-  validateInput = (name, value) =>  {
-    let error = '';
-    switch(name) {
-      case 'email':
-        if(value===""){
-          error = 'Please enter you email'
-        } 
-        else{
-          this.setState({email_error: false});
-        }
-        break;
-      default:
-        break;
-    }
-    return error;
-  }
-  
-  render(){
-    return(
+  render() {
+    return (
       <React.Fragment>
-        
-        <Message
-            error
-            header={this.state.error}
-            hidden={this.state.error === ''}
-        />
-        <Form onSubmit={this.handleSubmit}>
-        
-          <h2>Sign In</h2>
-          <Form.Field>
-            <label>Email</label>
-            <Input name='email' error={this.state.email_error} value={this.state.value} onChange={this.handleChange} placeholder='Email' />
-          </Form.Field>
-          <Form.Field>
-            <label>Password</label>
-            <Input name='password' error={this.state.password_error}  type='password' placeholder='Password' onChange={this.handleChange} />
-          </Form.Field>
-          <Form.Field>
-            <Checkbox label='Remember Me'/>
-          </Form.Field>
-          <Form.Field>
-            Don't have an account? <Link to="/">Sign up Now</Link>
-          </Form.Field>
-          <Button type='submit'>Sign in</Button>
-        </Form>
+        {this.handleSignIn()}
+        <Grid columns={2} divided>
+          <Grid.Row>
+            <Grid.Column width={10}>
+              <Image src="/banner.jpg" position="left" size="big" />
+            </Grid.Column>
+            <Grid.Column width={6}>
+              <Message
+                error
+                header={this.props.errors}
+                hidden={this.props.errors.length === 0}
+              />
+              <SignInForm onSubmit={this.handleSubmit} />
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
       </React.Fragment>
-    )
+    );
   }
 }
 
-export default Signin;
+function mapStateToProps(state) {
+  let errors = [];
+  let forms = state.form;
+  let hasSignIn = "signin" in forms;
+  if (hasSignIn) {
+    let hasErrors = "syncErrors" in forms.signin;
+    if (hasErrors && state.form.signin.anyTouched) {
+      if (Object.entries(state.form.signin.syncErrors).length !== 0) {
+        errors = Object.values(state.form.signin.syncErrors);
+      }
+    }
+  }
+
+  if (state.login.signin_errors !== "") {
+    errors.push(state.login.signin_errors);
+  }
+
+  return {
+    errors: errors,
+    signin_errors: state.login.signin_errors,
+    signin_success: state.login.signin_success
+  };
+}
+
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({ loginUser: loginUser }, dispatch);
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Signin);
